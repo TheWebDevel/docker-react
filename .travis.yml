@@ -11,4 +11,4 @@ before_install:
 
 # Run Test Suite
 script:
-  - docker run CI=true sathishcodes/docker-react npm run test
+  - docker run -e CI=true sathishcodes/docker-react npm run test
