@@ -1,5 +1,4 @@
 # Builder Phase
-
 # Base Image
 FROM node:alpine as builder
 # Set Workdir
@@ -15,7 +14,6 @@ RUN npm run build
 
 
 # Run Phase
-
 #Base Image
 FROM nginx:alpine
 # Expose Port 80
