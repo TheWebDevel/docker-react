@@ -7,7 +7,7 @@ services:
 
 # Build docker image
 before_install:
-  - docker build -t sathishcodes/docker-react -f Docker.dev .
+  - docker build -t sathishcodes/docker-react -f Dockerfile.dev .
 
 # Run Test Suite
 script:
